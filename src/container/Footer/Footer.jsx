@@ -6,7 +6,7 @@ import { images } from '../../constants';
 import './Footer.css';
 
 const Footer = () => (
-  <div className="app__footer section__padding" id="login">
+  <div className="app__footer section__padding" id="contact">
     <FooterOverlay />
     <Newsletter />
 
@@ -39,7 +39,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+      <p className="p__opensans">2023 Gericht. All Rights reserved.</p>
     </div>
 
   </div>
