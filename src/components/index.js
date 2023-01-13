@@ -1,12 +1,12 @@
 import SubHeading from './SubHeading/SubHeading';
-import Newsletter from './Footer/Newsletter';
+import Booking from './Footer/Booking';
 import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 
 export {
   SubHeading,
-  Newsletter,
+  Booking,
   FooterOverlay,
   MenuItem,
   Navbar,

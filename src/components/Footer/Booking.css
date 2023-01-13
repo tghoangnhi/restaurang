@@ -8,41 +8,46 @@
     text-align: center;
 }
 
-.app__newsletter-input {
-    flex-direction: row;
-    margin-top: 3rem;
+.app__booking-form {
+    flex-direction: column;
+    margin-top: 1rem;
 }
 
-.app__newsletter-input input {
+.app__booking-input input {
     width: 620px;
     border: 1px solid var(--color-golden);
     border-radius: 5px;
     font-size: 1rem;
     font-family: var(--font-base);
     color: var(--color-white);
-    
-    margin-right: 2rem;
+
+    margin: 1rem 2rem;
     padding: 0.75rem 1rem;
     background: var(--color-black);
 }
 
-.app__newsletter-input button {
+.app__booking-form button {
     width: max-content;
+    margin-top: 2rem;
+}
+
+.app__booking-form p {
+    color: #AAAAAA;
 }
 
 @media screen and (min-width: 2000px) {
-    .app__newsletter-input input {
+    .app__booking-input input {
         font-size: 2rem;
     }
 }
 
 @media screen and (max-width: 990px) {
-    .app__newsletter-input {
+    .app__booking-input {
         flex-direction: column;
         width: 100%;
     }
 
-    .app__newsletter-input input {
+    .app__booking-input input {
         margin: 0 0 2rem 0;
         width: 100%;
     }
